@@ -97,9 +97,17 @@ section{
     justify-items: center;
     height: 100vh;
     max-width: 55%;
-    margin-top: 3%;
+    margin-top: 4%;
     font-size: 18px;
     color: #999898;
+}
+.section-1 .container-2 .content-2 .table-set{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    top: 76%;
+    width: 58%;
 }
 
 /*END-SECTION-1*/
