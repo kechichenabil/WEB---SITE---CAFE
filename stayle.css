@@ -134,3 +134,17 @@ section{
 }
 
 /*END-SECTION-1*/
+
+
+/*SECTION-2*/
+.section-2{
+    background-color: #e6e3e3;
+    padding: 13rem 15rem;
+}
+.container-3 .content-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+/*END-SECTION-2*/
