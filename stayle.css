@@ -140,6 +140,7 @@ section{
 .section-2{
     background-color: #e6e3e3;
     padding: 13rem 14rem;
+    height: auto;
 }
 .container-3 .content-3{
     display: flex;
@@ -200,5 +201,62 @@ section{
     transition: .5s;
     color: white;
 }
-
+ .favicon img{
+    margin-right: 0.5rem;
+ }
+.favicon{
+    margin-top: 5rem;
+    font-family: "Yellowtail", serif;
+    color: #c7a566;
+    font-size: 2rem;
+    font-weight: 100;
+}
+ hr{
+    max-width: 75%;
+    position: relative;
+    left: 29%;
+    bottom: 4%;
+    border: none;
+    border: 0.1rem solid #c7a566;
+    margin-bottom: 4rem;
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 2.6rem;
+    transition: .5s;
+}
+.item{
+    position: relative;
+    bottom: 2.5px;
+    right: 1.6px;
+}
+.clr{
+    width: 110px;
+    height: 110px;
+    border-radius: 150px;
+    background: #242424;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.clr .daira{
+    width: 90px;
+    height: 90px;
+    border-radius: 150px;
+    border: 3px solid #aaaaaa;
+    background: none;
+    cursor: pointer;
+}
+.daira-tot{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 15%;
+    cursor: pointer;
+}
+.item{
+ transition: .5s;
+}
 /*END-SECTION-2*/
